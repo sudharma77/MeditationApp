@@ -38,7 +38,7 @@ function meditation10Mins(){
     video5.style.display = 'none' ;
 
     console.log("check")
-    var audio = new Audio('/javascript/project/Meditation/Audio/1.mp3');
+    var audio = new Audio('1.mp3');
     audio.play();
     var btn = document.getElementById('button') ;
     btn.addEventListener('click' , function(){
@@ -62,7 +62,7 @@ function meditation5Mins(){
     video5.style.display = 'none' ;
 
     console.log("check")
-    var audio = new Audio('/javascript/project/Meditation/Audio/5min.mp3');
+    var audio = new Audio('5min.mp3');
     audio.play();
     var btn = document.getElementById('button1') ;
     btn.addEventListener('click' , function(){
@@ -86,7 +86,7 @@ function meditation15Mins(){
     video5.style.display = 'none' ;
 
     console.log("check")
-    var audio = new Audio('/javascript/project/Meditation/Audio1/15min.mp3');
+    var audio = new Audio('15min.mp3');
     audio.play();
     var btn = document.getElementById('button2') ;
     btn.addEventListener('click' , function(){
@@ -110,7 +110,7 @@ function meditationSun(){
     video5.style.display = 'none' ;
 
     console.log("check")
-    var audio = new Audio('/javascript/project/Meditation/Audio1/10min.mp3');
+    var audio = new Audio('10min.mp3');
     audio.play();
     var btn = document.getElementById('button3') ;
     btn.addEventListener('click' , function(){
@@ -134,7 +134,7 @@ function meditationMoon(){
     video5.style.display = '' ;
 
     console.log("check")
-    var audio = new Audio('/javascript/project/Meditation/Audio2/moon.m4a');
+    var audio = new Audio('moon.m4a');
     audio.play();
     var btn = document.getElementById('button4') ;
     btn.addEventListener('click' , function(){
