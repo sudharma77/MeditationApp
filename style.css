@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100vw;
+    height: 400px;
+    /* display: none; */
+   
+}
+.col1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.col2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 400px;
+    height: 600px;
+    
+}
+
+.col3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.subcol {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:rgb(24, 168, 24);
+    width: 80px;
+    height: 50px;
+    border-radius: 1.5rem;
+    border: 3.4px solid #212;
+    cursor: pointer;
+}
+.subcol1{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(24, 168, 24);
+    width: 80px;
+    height: 50px;
+    border-radius: 1.5rem;
+    border: 3.4px solid #212;
+    cursor: pointer;
+    
+
+}
+.subcol1:hover{
+    background-color: #fff;
+}
+
+.subcol:hover{
+    background-color: #fff;
+}
+
+.video1{
+    /* min-width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    /* display: none;
+     */
+    
+    
+
+}
+
+video2{
+    /* min-width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    /* display: none; */
+}
+
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+.button{
+    background-color: #fff;
+    color:transparent;
+    height: 40px;
+    width: 60px;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 1.5rem;
+    background-color:transparent ;
+    position:absolute;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #000;
+}
